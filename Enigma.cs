@@ -8,7 +8,7 @@ namespace lab2_enigma
 {
 	public class Rotor
 	{
-		const int capacity = 256;
+		const int capacity = 128;
 		byte[] cipheredLetters;
 
 		public int RotationsCount { get; private set; }
