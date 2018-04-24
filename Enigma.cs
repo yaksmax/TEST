@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -64,8 +64,8 @@ namespace lab2_enigma
 
 	public class Reflector
 	{
-		const int capacity = 256;
-		const int capacity2 = 128;
+		const int capacity = 128;
+		const int capacity2 = 256;
 		byte[] cipheredLetters = new byte[capacity];
 
 		public Reflector(int seed)
